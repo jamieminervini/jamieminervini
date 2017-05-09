@@ -1,0 +1,100 @@
+		* {
+			margin: 0;
+			font-family: "Raleway", sans-serif;
+
+		}
+		img {
+			max-width: 100%;
+		}
+
+		body {
+			color: black;
+			font-family: "Raleway", sans-serif;
+			text-align: center;
+		}
+		h3 {
+			font-size: 42px;
+			
+			padding-bottom: 20px
+		}
+		p {
+			font-size: 20px;
+		}
+
+		.ul1 {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: lightgray;
+		}
+
+		.li1 {
+			float: left;
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			color: black;
+
+		}
+
+		.a1 {
+			display: block;
+			color: white;
+			text-align: center;
+			/*padding: 14px 16px;*/
+			text-decoration: none;
+			color: black;
+		}
+
+		.a1:hover {
+			background-color: #D9D9D9;
+		}
+
+		.li1:hover {
+			background-color: #D9D9D9;
+		}
+
+		.classh1{
+			font-size: 75px;
+			text-transform: uppercase;
+			font-weight: normal;
+			padding-top: 30px;
+		}
+
+		.classh2{
+			font-family: cursive;
+			text-align: right;
+			margin-right: 367px;
+			margin-top: -20px;
+		}
+
+		.bgimg {
+			height: 700px;
+			background: url(pics2/doggo.jpg)
+			no-repeat center;
+			background-size: cover;
+			color: #F9E294;
+			margin: 0;
+		}
+
+		.box {
+			display: flex;
+			width: 90%;
+			height: auto;
+			margin: auto;
+
+		}
+
+		.card {
+			width: 100%;
+			padding: 20px;
+			text-align: left;
+			text-decoration: none;
+			padding-top: 1px;
+			border: 10px double #F9E294;
+			margin: 15px;
+			box-shadow: 10px 15px 15px 5px lightgrey;
+		}
